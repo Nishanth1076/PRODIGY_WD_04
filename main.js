@@ -72,19 +72,19 @@ const projects = [
   {
     title: "Netflix Clone",
     category: "frontend",
-    link: "https://nishanth1076.github.io/responsive-page-netflix-clone/",
+    link: "https://nishanth1076.github.io/PRODIGY_WD_01/",
     img: "https://ik.imagekit.io/8akopd3mp/netflix.jpeg",
   },
   {
     title: "Stopwatch Web App",
     category: "frontend",
-    link: "https://nishanth1076.github.io/Stopwatch-Web-App/",
+    link: "https://nishanth1076.github.io/PRODIGY_WD_02/",
     img: "https://ik.imagekit.io/8akopd3mp/Screenshot%20(51).png",
   },
   {
     title: "Tic Tac Toe",
     category: "frontend",
-    link: "https://nishanth1076.github.io/Tic-Toc-Toe-web-app/",
+    link: "https://nishanth1076.github.io/PRODIGY_WD_03/",
     img: "https://ik.imagekit.io/8akopd3mp/Screenshot%20(56).png",
   },
 ];
@@ -248,4 +248,5 @@ if (contactForm && !document.getElementById("success-popup")) {
     contactForm.reset();
   });
 }
+
 });
