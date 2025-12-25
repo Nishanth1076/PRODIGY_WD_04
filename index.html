@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nishanth's Portfolio</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container navbar-container">
+      <h1 class="logo">Nishanth</h1>
+      <ul class="nav-menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch">
+        <label for="theme-switch"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></label>
+      </div>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <header id="hero">
+    <div class="container" id="hero-content"></div>
+  </header>
+
+  <section id="about" class="container">
+    <div id="about-content"></div>
+  </section>
+
+  <section id="skills" class="container">
+    <div id="skills-content"></div>
+  </section>
+
+  <section id="projects" class="container">
+    <div class="project-filters">
+      <button data-filter="all" class="filter-btn active">All</button>
+      <button data-filter="frontend" class="filter-btn">Frontend</button>
+      <button data-filter="backend" class="filter-btn">Backend</button>
+      <button data-filter="fullstack" class="filter-btn">Fullstack</button>
+    </div>
+    <div id="projects-content"></div>
+  </section>
+
+  <section id="certifications" class="container">
+    <div id="certifications-content"></div>
+  </section>
+
+  <section id="contact" class="container">
+    <div id="contact-content"></div>
+  </section>
+
+  <footer id="footer">
+    <div id="footer-content"></div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
