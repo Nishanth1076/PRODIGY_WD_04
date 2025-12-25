@@ -141,7 +141,7 @@ const certifications = [
   {
     title: "Essential SQL Skills",
     provider: "Analytics Vidhya",
-    img: "https://ik.imagekit.io/8akopd3mp/Certificates/Excel.jpeg",
+    img: "https://ik.imagekit.io/8akopd3mp/Certificates/sql.jpeg?updatedAt=1766667436257",
   },
 ];
 
@@ -250,3 +250,4 @@ if (contactForm && !document.getElementById("success-popup")) {
 }
 
 });
+
